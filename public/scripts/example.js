@@ -9,6 +9,10 @@
  * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+var React = require('react');
+var ReactDOM = require('react-dom');
+var $ = require('jquery');
+var marked = require('marked');
 
 var Comment = React.createClass({
   rawMarkup: function() {
