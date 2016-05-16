@@ -6,7 +6,7 @@ import marked from 'marked';
 
 const propTypes = {
   author: PropTypes.string,
-  children: PropTypes.object,
+  children: PropTypes.string,
 };
 
 class Comment extends Component {
